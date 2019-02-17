@@ -187,12 +187,12 @@ func (s *DomainsServiceOp) Delete(ctx context.Context, name string) (*Response, 
 	return resp, err
 }
 
-// Converts a DomainRecord to a string.
+// String: Converts a DomainRecord to a string.
 func (d DomainRecord) String() string {
 	return Stringify(d)
 }
 
-// Converts a DomainRecordEditRequest to a string.
+// String: Converts a DomainRecordEditRequest to a string.
 func (d DomainRecordEditRequest) String() string {
 	return Stringify(d)
 }

@@ -120,7 +120,7 @@ type BackupWindow struct {
 	End   *Timestamp `json:"end,omitempty"`
 }
 
-// Convert Droplet to a string
+// String: Convert Droplet to a string
 func (d Droplet) String() string {
 	return Stringify(d)
 }
